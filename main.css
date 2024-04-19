@@ -1,0 +1,133 @@
+/* Fonts */
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* Setting up the basic styling for the HTML elements */
+html {
+    box-sizing: border-box; /* Box model for all HTML elements */
+    font-size: 16px; /* Base font size */
+}
+
+/* Applying box-sizing to all elements and their pseudo-elements */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Styling for the body */
+body {
+    background-color: #F2F2F2; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Default font */
+    font-weight: 400; /* Normal font weight */
+}
+
+/* Styling for main headings and side headings */
+h1,
+h2,
+h3,
+aside h2 {
+    text-align: center; /* Center-align headings */
+    font-family: "Roboto", sans-serif; /* Roboto font */
+    font-weight: 700; /* Bold font weight */
+}
+
+h1 {
+    color: #2F4858; /* Dark blue color for main headings */
+    font-size: 3em; /* Larger font size for main headings */
+}
+
+h2 {
+    color: #4D4D4D; /* Dark gray color for headings */
+    font-size: 2em; /* Medium font size for headings */
+}
+
+h3 {
+    color: #006666; /* Dark cyan color for headings */
+    font-size: 1.5em; /* Smaller font size for headings */
+}
+
+/* Styling for paragraphs */
+p {
+    text-align: justify; /* Justify-align paragraphs */
+    line-height: 1.6; /* Line height for easy reading */
+    margin: 0 auto; /* Center-align paragraphs */
+    padding: 10px 20px; /* Padding for paragraphs */
+    width: 90%; /* Set width to 90% of the container */
+}
+
+/* Styling for links */
+a {
+    color: #006666; /* Dark cyan color for links */
+    text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Styling for header */
+header {
+    background-color: #99CCFF; /* Light blue background for header */
+    text-align: center; /* Center-align header content */
+    padding: 2em 0; /* Padding for header */
+}
+
+header h1 {
+    color: #003366; /* Dark blue color for header text */
+    font-size: 4em; /* Larger font size for header */
+    font-style: italic; /* Italicize header text */
+    text-shadow: 2px 2px 4px #CCCCCC; /* Text shadow for header */
+}
+
+header h2 {
+    color: #FFFFFF; /* White color for header subtext */
+    font-size: 1.2em; /* Medium font size for header subtext */
+    margin-top: 0.5em; /* Margin top for spacing */
+}
+
+/* Styling for navigation bar */
+nav {
+    background-color: #003366; /* Dark blue background for nav */
+    padding: 1em 0; /* Padding for nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center-align items */
+}
+
+nav ul li {
+    margin: 0 1em; /* Margin between nav items */
+}
+
+nav a {
+    color: #FFFFFF; /* White color for nav links */
+    font-weight: 500; /* Medium font weight for nav links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline nav links on hover */
+}
+
+/* Styling for main section */
+#main {
+    background-color: #FFFFFF; /* White background for main section */
+    padding: 2em; /* Padding for main section */
+}
+
+/* Styling for footer */
+footer {
+    background-color: #003366; /* Dark blue background for footer */
+    color: #FFFFFF; /* White color for footer text */
+    padding: 1em 0; /* Padding for footer */
+    text-align: center; /* Center-align footer content */
+}
+
+header {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
